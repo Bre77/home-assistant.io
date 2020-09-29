@@ -41,6 +41,10 @@ The `advantage_air` sensor platform will create sensor entities for a variety of
 - Each zone that is temperature controlled will have a sensor to show how open the damper is.
 - Each zone with a wireless temperature or motion sensor will have a sensor that reports its wireless RSSI.
 
+### Binary Sensor
+
+The `advantage_air` binary sensor platform will create a binary sensor for each zone that has a motion sensor.
+
 ### Switch
 
 The `advantage_air` switch platform will create a switch entity to toggle fresh air mode, if it is supported.
