@@ -10,7 +10,9 @@ ha_codeowners:
   - '@home-assistant/core'
 ha_domain: group
 ha_platforms:
+  - binary_sensor
   - cover
+  - fan
   - light
   - media_player
   - notify
@@ -87,13 +89,13 @@ The system can calculate group state with entities from the following domains:
 When entities all have a single on and off state, the group state will
 be calculated as follows:
 
-| Domain            | on     | off      |
-|-------------------|--------|----------|
-| device_tracker    | home   | not_home |
-| cover             | open   | closed   |
-| lock              | locked | unlocked |
-| person            | home   | not_home |
-| media_player      | ok     | problem  |
+| Domain            | on       | off      |
+|-------------------|----------|----------|
+| device_tracker    | home     | not_home |
+| cover             | open     | closed   |
+| lock              | unlocked | locked   |
+| person            | home     | not_home |
+| media_player      | ok       | problem  |
 
 When a group contains entities from domains that have multiple `on` states or only use `on`
 and `off`, the group state will be `on` or `off`.
