@@ -19,7 +19,7 @@ ha_iot_class: Cloud Polling
 ha_config_flow: true
 ha_codeowners:
   - '@Bre77'
-ha_domain: Teslemetry
+ha_domain: teslemetry
 ha_platforms:
   - binary_sensor
   - button
@@ -54,7 +54,7 @@ These are the entities available in the Teslemetry integration. Not all entities
 ### Vehicles
 
 |Domain|Name|Enabled|
-|---|---|---|---|
+|---|---|---|
 |Binary sensor|Battery heater|No|
 |Binary sensor|Cabin overheat protection actively cooling|No|
 |Binary sensor|Charge cable|Yes|
@@ -162,8 +162,8 @@ These are the entities available in the Teslemetry integration. Not all entities
 
 ### Energy sites
 
-|Domain|Name|Method|Enabled|
-|---|---|---|---|
+|Domain|Name|Enabled|
+|---|---|---|
 |Binary sensor|Backup capable|Yes|
 |Binary sensor|Grid services active|Yes|
 |Binary sensor|Grid services enabled|Yes|
@@ -188,8 +188,8 @@ These are the entities available in the Teslemetry integration. Not all entities
 
 ### Wall connector
 
-|Domain|Name|Method|Enabled|
-|---|---|---|---|
+|Domain|Name|Enabled|
+|---|---|---|
 |Sensor|Fault state|No|
 |Sensor|Power|Yes|
 |Sensor|State|Yes|
