@@ -2,14 +2,14 @@
 title: Teslemetry
 description: Instructions on how to integrate Teslemetry within Home Assistant.
 ha_category:
-  - Binary Sensor
+  - Binary sensor
   - Button
   - Car
   - Climate
   - Cover
-  - Device Tracker
+  - Device tracker
   - Lock
-  - Media Player
+  - Media player
   - Number
   - Sensor
   - Select
